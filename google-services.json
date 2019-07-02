@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "816541720881",
+    "firebase_url": "https://braincare-17600.firebaseio.com",
+    "project_id": "braincare-17600",
+    "storage_bucket": "braincare-17600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816541720881:android:63e430b8d115ef37",
+        "android_client_info": {
+          "package_name": "com.rohitkansay28.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816541720881-tr5rk6u6ng9cigqa0qv060f57kiu1gf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohitkansay28.myapplication",
+            "certificate_hash": "6f91f1952e7a59dea4eb64031c5d8d7f1e86b328"
+          }
+        },
+        {
+          "client_id": "816541720881-v8f5cli4sprq33duqsid2pk1m94etr5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQuGRv6h1NwWgPQ4LBt_GRxpi-w5ZMnqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816541720881-v8f5cli4sprq33duqsid2pk1m94etr5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

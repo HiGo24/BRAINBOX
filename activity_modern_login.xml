@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModernLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/brain" />
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="@string/welcome"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:text="@string/clubdetail"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/stylebutton"
+                android:text="New User"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/stylebutton1"
+                android:text="@string/join_us"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/loginuser"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/pink" />
+
+        <EditText
+            android:id="@+id/loginpass"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/pink" />
+
+        <Button
+            android:id="@+id/sendData"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/clickeffect"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:text="@string/login_in"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
